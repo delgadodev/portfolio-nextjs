@@ -1,0 +1,48 @@
+/* blur.css */
+
+
+/* BLUR NAVBAR OPEN */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s forwards;
+}
+
+.fade-out {
+  animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOutBlur {
+  from {
+    opacity: 1;
+    backdrop-filter: blur(5px);
+  }
+  to {
+    opacity: 0;
+    backdrop-filter: blur(0);
+  }
+}
+
+.blur-in {
+  animation: fadeInBlur 0.2s forwards;
+}
+
+.blur-out {
+  animation: fadeOutBlur 0.2s forwards;
+}
