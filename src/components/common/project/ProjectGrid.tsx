@@ -14,11 +14,11 @@ export default function ProjectGrid() {
 
       <div className="p-2 md:grid md:grid-cols-2">
         <div className="fade-in">
-          <h2 className="font-semibold mb-3 md:text-2xl">Hello! I&aposm Lautaro</h2>
+          <h2 className="font-semibold mb-3 md:text-2xl">Hello! I&apos;m Lautaro</h2>
 
           <p className="md:text-xl">
             Web Developer with 2 years of experience. My passion lies in
-            creating captivating websites, whether it's through creative
+            creating captivating websites, whether it&apos; through creative
             projects featuring unique animations or clean and commercial
             designs.
           </p>
