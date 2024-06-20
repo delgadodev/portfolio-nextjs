@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio de Lautaro Delgado
 
-## Getting Started
+## Sobre mí
 
-First, run the development server:
+Soy un desarrollador web con un año de experiencia, especializado en la creación de sitios web atractivos y funcionales. Mi pasión radica en combinar diseño y desarrollo para optimizar la experiencia del usuario.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Proyectos Recientes
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **E-commerce website**
+  - Tecnologías: Next.js, Tailwind CSS, PostgreSQL, Prisma, Vercel
+  - [Ver proyecto](https://teslo-shop-7mzyqdgwy-xhungens-projects.vercel.app)
+- **Realstate website (en desarrollo)**
+  - Tecnologías: Next.js, Tailwind CSS, Supabase, Shadcn
+  - [Ver repositorio](https://github.com/delgadodev/realstate-saas)
+- **TuTiendaWeb (Dashboard Work)**
+  - Tecnologías: Next.js, Tailwind CSS, Firebase
+  - [Ver proyecto](https://tutiendaweb.com.ar)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologías
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+React.js, Next.js, Tailwind CSS, JavaScript, Prisma, PostgreSQL, HTML5, CSS3
 
-## Learn More
+## Contacto
 
-To learn more about Next.js, take a look at the following resources:
+Si tienes preguntas o deseas colaborar, [contáctame](https://www.linkedin.com/in/lautarodelgadodev/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Visita mi portafolio](https://portfolio-nextjs-iota-liart.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# Lautaro Delgado's Portfolio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## About Me
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I am a web developer with one year of experience, specializing in creating attractive and functional websites. My passion lies in combining design and development to optimize the user experience.
+
+## Recent Projects
+
+- **E-commerce website**
+  - Technologies: Next.js, Tailwind CSS, PostgreSQL, Prisma, Vercel
+  - [View project](https://teslo-shop-7mzyqdgwy-xhungens-projects.vercel.app)
+- **Realstate website (in development)**
+  - Technologies: Next.js, Tailwind CSS, Supabase, Shadcn
+  - [View repository](https://github.com/delgadodev/realstate-saas)
+- **TuTiendaWeb (Dashboard Work)**
+  - Technologies: Next.js, Tailwind CSS, Firebase
+  - [View project](https://tutiendaweb.com.ar)
+
+## Technologies
+
+React.js, Next.js, Tailwind CSS, JavaScript, Prisma, PostgreSQL, HTML5, CSS3
+
+## Contact
+
+If you have any questions or want to collaborate, [contact me](https://www.linkedin.com/in/lautarodelgadodev/).
+
+[Visit my portfolio](https://portfolio-nextjs-iota-liart.vercel.app/)
