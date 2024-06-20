@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Sidebar() {
   return (
-    <div className="hidden md:flex flex-col p-5 gap-5 fixed w-[320px]">
+    <div className="hidden lg:flex flex-col p-5 gap-5 fixed w-[320px]">
       <div className=" shadow-md bg-gradient-to-tl from-lime-100 to-slate-50 p-8 rounded-3xl">
         <h1 className="text-4xl text-black/80 font-bold w-[80%] mx-auto">
           frontend developer
@@ -19,16 +19,22 @@ export default function Sidebar() {
             Projects
           </Link>
           <Link
-            href="#experience"
+            href="#tech"
             className="hover:underline hover:text-black/50 transition-colors"
           >
-            Experience
+            Tech Stack
           </Link>
           <Link
             href="#about"
             className="hover:underline hover:text-black/50 transition-colors"
           >
             About
+          </Link>
+          <Link
+            href="#contact"
+            className="hover:underline hover:text-black/50 transition-colors"
+          >
+            Contact
           </Link>
           <h2 className="opacity-40 text-sm mt-5">
             Available for new projects
@@ -43,7 +49,7 @@ export default function Sidebar() {
             <Link
               className="hover:underline hover:text-black/50 transition-colors"
               target="_blank"
-              href=""
+              href="mailto:allandelgadodev@gmail.com"
             >
               e-mail
             </Link>
@@ -52,13 +58,13 @@ export default function Sidebar() {
           <div className="flex flex-col">
             <Link
               className="hover:underline hover:text-black/50 transition-colors"
-              href="#"
+              href="https://github.com/delgadodev"
             >
               github
             </Link>
             <Link
               className="hover:underline hover:text-black/50 transition-colors"
-              href="#"
+              href="https://www.linkedin.com/in/lautarodelgadodev/"
             >
               linkedin
             </Link>

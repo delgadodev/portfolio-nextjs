@@ -21,7 +21,7 @@ export default function ProjectCard({
   const [mouseEnter, setMouseEnter] = useState(false);
 
   return (
-    <div className="flex flex-col gap-5 md:w-[400px] h-[450px]">
+    <div className="flex flex-col gap-5 md:w-full h-[450px]">
       <div className="bg-backgroundCard h-[300px] flex items-center rounded-3xl p-5">
         <Image
           className="w-full h-[200px] object-contain"

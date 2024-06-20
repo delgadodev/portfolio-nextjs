@@ -6,18 +6,20 @@ import Image from "next/image";
 export default function ProjectGrid() {
   return (
     <>
-      <div className="md:hidden shadow-md bg-gradient-to-tl from-lime-100 to-slate-50 p-8 rounded-3xl">
+      <div className="lg:hidden shadow-md bg-gradient-to-tl from-lime-100 to-slate-50 p-8 rounded-3xl">
         <h1 className="text-4xl text-black/80 font-bold  mx-auto">
           frontend developer
         </h1>
       </div>
 
-      <div className="p-2 md:grid md:grid-cols-2">
-        <div className="fade-in">
-          <h2 className="font-semibold mb-3 md:text-2xl">Hello! I&apos;m Lautaro</h2>
+      <div className="p-2 flex flex-col 2xl:flex-row  justify-between">
+        <div className="fade-in w-full">
+          <h2 className="font-semibold mb-3 md:text-3xl">
+            Hello! I&apos;m Lautaro
+          </h2>
 
           <p className="md:text-xl">
-            Web Developer with 2 years of experience. My passion lies in
+            Web Developer with 1 year of experience. My passion lies in
             creating captivating websites, whether it&apos; through creative
             projects featuring unique animations or clean and commercial
             designs.
@@ -29,12 +31,12 @@ export default function ProjectGrid() {
         </div>
       </div>
 
-      <div className="fade-in">
+      <div id="projects" className="fade-in">
         <h2 className="text-2xl md:text-4xl font-bold text-black/80">
           Here are my most recent projects
         </h2>
 
-        <div className="grid md:grid-cols-3 mt-5 gap-5">
+        <div className="grid justify-center xl:grid-cols-2 2xl:grid-cols-3 w-full  mt-5 gap-5">
           {projects.map((project, index) => (
             <ProjectCard
               key={project.title + index}

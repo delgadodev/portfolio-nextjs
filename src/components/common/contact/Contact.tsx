@@ -26,7 +26,8 @@ export default function Contact() {
 
       const body = `Name: ${data.name}\nEmail: ${data.email}\nMessage: ${data.message}`;
 
-      const mailto = `mailto:allancamuz@gmail.com?subject=Contact from Portfolio
+      const mailto = `mailto:allanlautarodelgadodev@gmail.com
+?subject=Contact from Portfolio
         &body=${encodeURIComponent(body)}`;
 
       window.open(mailto, "_blank")?.focus();
@@ -63,7 +64,7 @@ export default function Contact() {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="John Doe"
+                placeholder="Your name"
               />
             </div>
 
@@ -78,7 +79,7 @@ export default function Contact() {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="email"
+                placeholder="Your email"
               />
             </div>
 

@@ -3,6 +3,7 @@ import clsx from "clsx";
 import { useState } from "react";
 import "./button.css";
 import "./blur.css";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,15 +16,15 @@ export default function Navbar() {
     <div>
       {/* Fondo oscuro con transición */}
       {isOpen && (
-        <div className="fixed top-0 left-0 w-screen h-screen z-10 bg-black opacity-30 transition-all delay-300 md:hidden" />
+        <div className="fixed top-0 left-0 w-screen h-screen z-10 bg-black opacity-30 transition-all delay-300 lg:hidden" />
       )}
 
       {isOpen && (
-        <div className="fixed top-0 left-0 w-screen h-screen z-10 black backdrop-blur-[3px] transition-all delay-300 md:hidden" />
+        <div className="fixed top-0 left-0 w-screen h-screen z-10 black backdrop-blur-[3px] transition-all delay-300 lg:hidden" />
       )}
 
       {/* Navbar */}
-      <div className="bg-zinc-100 flex justify-between w-[90%] mx-auto p-1 rounded-full z-10 relative mt-5 md:hidden">
+      <div className="bg-zinc-100 flex justify-between w-[90%] mx-auto p-1 rounded-full z-10 relative mt-5 lg:hidden">
         <p className="font-semibold  bg-zinc-800 text-white px-3 rounded-full text-sm p-3">
           Lautaro Delgado
         </p>
@@ -62,7 +63,7 @@ export default function Navbar() {
       {/* Contenido del Navbar */}
       <div
         className={clsx(
-          "mt-2 flex-col gap-2 z-10 transition-all absolute w-full md:hidden",
+          "mt-2 flex-col gap-2 z-10 transition-all absolute w-full lg:hidden",
           {
             flex: isOpen,
             hidden: !isOpen,
@@ -74,33 +75,33 @@ export default function Navbar() {
         {isOpen && (
           <>
             {/* CONTAINER */}
-            <div className=" w-[90%] mx-auto flex flex-col gap-2 md:hidden">
+            <div className=" w-[90%] mx-auto flex flex-col gap-2 lg:hidden">
               {/* LINKS */}
               <div className="bg-zinc-100 flex justify-center p-10 rounded-2xl ">
                 <div className="text-center flex flex-col gap-2 font-semibold uppercase">
-                  <a
-                  onClick={handleToggle}
+                  <Link
+                    onClick={handleToggle}
                     href="#projects"
                     className="hover:underline hover:text-black/50 transition-colors"
                   >
                     Projects
-                  </a>
-                  <a
-                  onClick={handleToggle}
-                    href="#experience"
+                  </Link>
+                  <Link
+                    onClick={handleToggle}
+                    href="#tech"
                     className="hover:underline hover:text-black/50 transition-colors"
                   >
-                    Experience
-                  </a>
-                  <a
-                  onClick={handleToggle}
+                    Tech Stack
+                  </Link>
+                  <Link
+                    onClick={handleToggle}
                     href="#about"
                     className="hover:underline hover:text-black/50 transition-colors"
                   >
                     About
-                  </a>
+                  </Link>
                   <h2 className="opacity-40 text-sm mt-5">
-                    Disponible para nuevos proyectos
+                    available for new projects
                   </h2>
                 </div>
               </div>
@@ -108,10 +109,22 @@ export default function Navbar() {
               {/* GRID LINKS SOCIALS */}
               <div className="grid grid-cols-3 gap-2 justify-between ">
                 <div className="bg-zinc-100 p-5 text-center rounded-2xl">
-                  <p className="font-bold">github</p>
+                  <Link
+                    href="https://github.com/delgadodev"
+                    target="_blank"
+                    className="font-bold"
+                  >
+                    github
+                  </Link>
                 </div>
                 <div className="bg-zinc-100 p-5 text-center rounded-2xl">
-                  <p className="font-bold">linkedin</p>
+                  <Link
+                    href="https://www.linkedin.com/in/lautarodelgadodev/"
+                    target="_blank"
+                    className="font-bold"
+                  >
+                    linkedin
+                  </Link>
                 </div>
                 <div className="bg-zinc-100 p-5 text-center rounded-2xl">
                   <p className="font-bold">instagram</p>
@@ -119,7 +132,15 @@ export default function Navbar() {
               </div>
               {/* LINK SOCIAL FULL */}
               <div className="bg-zinc-100 p-5 text-center rounded-2xl">
-                <p className="font-bold">email</p>
+                <Link
+                  href="
+                mailto:allanlautarodelgadodev@gmail.com
+                "
+                  target="_blank"
+                  className="font-bold"
+                >
+                  email
+                </Link>
               </div>
             </div>
           </>

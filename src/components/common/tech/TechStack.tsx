@@ -42,12 +42,12 @@ const tech = [
 
 export default function TechStack() {
   return (
-    <div className="fade-in mt-14">
+    <div id="tech" className="fade-in mt-14">
       <h2 className="text-2xl md:text-4xl font-bold text-black/80">
         My tech stack
       </h2>
 
-      <div className="flex flex-col md:flex-row gap-5 mt-5 fade-in">
+      <div className="flex flex-col md:flex-row gap-5 mt-5 fade-in flex-wrap">
         {tech.map((item, index) => (
           <div
             key={index}
