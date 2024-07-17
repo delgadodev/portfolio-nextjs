@@ -2,7 +2,7 @@ export const projects = [
   {
     image: "/img/1.png",
     title: "E-commerce website",
-    liveUrl: "https://teslo-shop-7mzyqdgwy-xhungens-projects.vercel.app/",
+    liveUrl: "https://teslo-shop-ochre.vercel.app/",
     repoUrl: "https://github.com/delgadodev/teslo-shop",
     techStack: ["Next.js", "Tailwind CSS", "PostgreSQL", "Prisma", "Vercel"],
   },
